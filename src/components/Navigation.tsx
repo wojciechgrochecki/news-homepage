@@ -11,7 +11,7 @@ const Navigation = ({}) => {
   }
 
   return (
-    <div className="flex w-full flex-row items-center justify-between py-5 sm:mb-5">
+    <div className="flex w-full flex-row items-center justify-between py-5 sm:mb-8">
       <img src={Logo} alt="logo" />
       <button onClick={toggleMenu} className="sm:hidden">
         <img src={IconMenu} alt="menu open icon" />
@@ -33,13 +33,13 @@ const Navigation = ({}) => {
           </button>
           <ul
             className="mt-20 flex flex-col gap-y-5 text-lg text-neutral-very-dark-blue sm:mt-0 sm:flex-row sm:gap-y-0
-          sm:space-x-10 sm:text-neutral-dark-grayish-blue [&_li]:cursor-pointer "
+          sm:space-x-10 sm:text-neutral-dark-grayish-blue xl:space-x-12 xl:text-2xl [&_li]:cursor-pointer "
           >
-            <li>Home</li>
-            <li>New</li>
-            <li>Popular</li>
-            <li>Trending</li>
-            <li>Categories</li>
+            <li className="hover:text-primary-soft-red">Home</li>
+            <li className="hover:text-primary-soft-red">New</li>
+            <li className="hover:text-primary-soft-red">Popular</li>
+            <li className="hover:text-primary-soft-red">Trending</li>
+            <li className="hover:text-primary-soft-red">Categories</li>
           </ul>
         </div>
       </div>

@@ -4,7 +4,7 @@ import Content from "./components/Content";
 
 function App() {
   return (
-    <div className=" bg-neutral-off-white px-4 py-3">
+    <div className=" mx-auto max-w-[1440px] bg-neutral-off-white px-4 py-3">
       <Navigation />
       <Content />
     </div>
