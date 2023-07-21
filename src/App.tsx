@@ -1,11 +1,12 @@
 import "./App.css";
+import Navigation from "./components/Navigation";
+import Content from "./components/Content";
 
 function App() {
   return (
-    <div>
-      <h1 className=" font-normal">Hello world!</h1>
-      <h1 className=" font-bold">Hello world!</h1>
-      <h1 className=" font-bolder">Hello world!</h1>
+    <div className=" bg-neutral-off-white px-4 py-3">
+      <Navigation />
+      <Content />
     </div>
   );
 }
