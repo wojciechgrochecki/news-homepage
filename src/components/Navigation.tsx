@@ -33,13 +33,13 @@ const Navigation = ({}) => {
           </button>
           <ul
             className="mt-20 flex flex-col gap-y-5 text-lg text-neutral-very-dark-blue sm:mt-0 sm:flex-row sm:gap-y-0
-          sm:space-x-10 sm:text-neutral-dark-grayish-blue xl:space-x-12 xl:text-2xl [&_li]:cursor-pointer "
+          sm:space-x-10 sm:text-neutral-dark-grayish-blue md:text-2xl xl:space-x-12  [&_li]:cursor-pointer "
           >
-            <li className="hover:text-primary-soft-red">Home</li>
-            <li className="hover:text-primary-soft-red">New</li>
-            <li className="hover:text-primary-soft-red">Popular</li>
-            <li className="hover:text-primary-soft-red">Trending</li>
-            <li className="hover:text-primary-soft-red">Categories</li>
+            <li className="w-fit hover:text-primary-soft-red">Home</li>
+            <li className="w-fit hover:text-primary-soft-red">New</li>
+            <li className="w-fit hover:text-primary-soft-red">Popular</li>
+            <li className="w-fit hover:text-primary-soft-red">Trending</li>
+            <li className="w-fit hover:text-primary-soft-red">Categories</li>
           </ul>
         </div>
       </div>
