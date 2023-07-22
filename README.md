@@ -23,8 +23,8 @@ Users should be able to:
 
 ![](./screenshots/desktop-design.png)
 ![](./screenshots/medium-width-design.png)
-<img src="./screenshots/mobile-design_1.png" width="400" alt="Mobile Design Part 1">
-<img src="./screenshots/mobile-design_2.png" width="400" alt="Mobile Design Part 2">
+<img src="./screenshots/mobile-design_1.png" width="400" style="margin:20px 0;" alt="Mobile Design Part 1">
+<img src="./screenshots/mobile-design_2.png" width="400" style="margin:20px 0;" alt="Mobile Design Part 2">
 ![](./screenshots/mobile-menu.png)
 
 ## My process
