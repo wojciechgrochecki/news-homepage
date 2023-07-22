@@ -22,9 +22,10 @@ Users should be able to:
 ### Screenshot
 
 ![](./screenshots/desktop-design.png)
-![](./screenshots/mobile-design.png)
-![](./screenshots/mobile-menu.png)
 ![](./screenshots/medium-width-design.png)
+<img src="./screenshots/mobile-design_1.png" width="400" alt="Mobile Design Part 1">
+<img src="./screenshots/mobile-design_2.png" width="400" alt="Mobile Design Part 2">
+![](./screenshots/mobile-menu.png)
 
 ## My process
 
